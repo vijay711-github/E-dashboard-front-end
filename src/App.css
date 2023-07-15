@@ -1,7 +1,21 @@
-.App {
-  text-align: center;
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
 }
-
+.nav-ul li{
+  /* display:flex; */
+  /* text-decoration:none; */
+  /* flex-direction:row; */
+  display:inline-block;
+  padding: 10px;
+  text-decoration:none;
+}
+.nav-ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
